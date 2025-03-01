@@ -9,6 +9,21 @@ void startTimer(long &timer) {
   timer = millis(); 
 }
 
+void timerAdd(long &timer, long add) {
+  timer = timer + add;
+}
+
+boolean timerLess(long &timer1, long &timer2) {
+  if (timer1 < timer2) {
+    return true;
+  }
+  return false;
+}
+
+long timerDiff(long &timer1, long &timer2) {
+  return timer1 - timer2;
+} 
+
 boolean isTimerExpired(long &timer, long expiration) {
   long current = millis() - timer;
   return current > expiration;
