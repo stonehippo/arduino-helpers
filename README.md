@@ -2,7 +2,7 @@
 
 Some code that I've found useful more than a few times when working with Arduinos.
 
-This code is pretty easy to use. Each helper is a simple header file, defining a set of methods. Dependencies are kept to a minimum, relying on standard Arduion API elements.
+This code is pretty easy to use. Each helper is a simple header file, defining a set of methods. Dependencies are kept to a minimum, relying on standard Arduino API elements.
 
 ## TimingHelpers.h
 
